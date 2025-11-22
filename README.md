@@ -1,5 +1,7 @@
-# Fixed Income Asset Pricing - Complete Solutions
+# Fixed Income Asset Pricing - Complete Solutions ✅
 ## Bus 35130 Spring 2024 - John Heaton
+
+**Status: ALL HOMEWORKS COMPLETE (HW1-HW7)**
 
 This repository contains comprehensive autonomous solutions to all homework assignments for the Fixed Income Asset Pricing course.
 
