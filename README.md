@@ -1,9 +1,9 @@
 # Fixed Income Asset Pricing - Complete Solutions ✅
 ## Bus 35130 Spring 2024 - John Heaton
 
-**Status: ALL HOMEWORKS COMPLETE (HW1-HW7)**
+**Status: ALL HOMEWORKS, MIDTERM, AND FINAL EXAM COMPLETE (HW1-HW7 + EXAMS)**
 
-This repository contains comprehensive autonomous solutions to all homework assignments for the Fixed Income Asset Pricing course.
+This repository contains comprehensive autonomous solutions to all homework assignments, midterm exam, and final exam for the Fixed Income Asset Pricing course.
 
 ## 📚 Contents
 
@@ -28,6 +28,22 @@ This repository contains comprehensive autonomous solutions to all homework assi
    - Demonstrates reactive programming approach
    - HW1 implementation with automatic parameter updates
    - Note: Primary solutions are in Jupyter notebook and SOLUTIONS.md
+
+4. **`MIDTERM_SOLUTIONS.md`** ✅ **[COMPLETE - Spring 2024 Midterm]**
+   - Complete solutions to all 4 midterm questions
+   - Detailed mathematical derivations and explanations
+   - Topics: TIPS/inflation, risk-neutral pricing, binomial trees, callable bonds, swaps, duration/convexity hedging, PCA factor analysis
+   - 180 points total coverage
+
+5. **`FINAL_EXAM_SOLUTIONS.md`** ✅ **[COMPLETE - Spring 2024 Final]**
+   - Comprehensive take-home exam report on TIPS and inflation-dependent securities
+   - Professional report format addressed to Managing Director
+   - Nelson-Siegel yield curve fitting for real and nominal rates
+   - Duration, convexity, and inflation hedging strategies
+   - Inflation swap valuation and analysis
+   - Multi-factor (PCA) hedging implementation
+   - Arbitrage opportunity analysis between TIPS, nominal bonds, and inflation swaps
+   - 100 points total coverage
 
 ### Homework Assignments Covered
 
@@ -72,6 +88,75 @@ This repository contains comprehensive autonomous solutions to all homework assi
 - Prepayment modeling
 - Monte Carlo simulation on trees
 - IO/PO strips analysis
+
+### Exams Covered
+
+#### Midterm Exam (Spring 2024)
+**Question 1: Short Answer/True-False (25 points)**
+- TIPS and inflation expectations extraction
+- Interest rate floor pricing via put-call parity
+- Risk-neutral models vs. forecasting
+- Factor model hedging objectives
+- Ho-Lee model calibration and limitations
+
+**Question 2: Binomial Tree Pricing (65 points)**
+- Mean reversion in interest rates
+- Risk-neutral probability calculation
+- Snowball inverse floater valuation
+- Callable bond pricing and early exercise
+- Arbitrage opportunities with bond mispricing
+
+**Question 3: Swap Rates and Bond Pricing (45 points)**
+- Bootstrapping zero-coupon curve from swap rates
+- Coupon bond valuation
+- Arbitrage strategies with repos
+- Leverage and financing risks
+
+**Question 4: Duration/Convexity and Factor Hedging (45 points)**
+- Portfolio duration and convexity matching
+- Yield curve shape risks
+- Principal Component Analysis (PCA) for hedging
+- Multi-factor hedge implementation
+- Limitations of linear hedging
+
+#### Final Exam (Spring 2024) - Take-Home Report
+
+**Section I: TIPS Fundamentals (10 points)**
+- Inflation-indexed securities structure and uses
+- Fisher equation: real vs. nominal rates
+- TIPS vs. real bonds
+- Expected return comparison
+
+**Section II: Empirical Analysis (15 points)**
+- Nelson-Siegel model fitting for real and nominal term structures
+- Break-even inflation rate calculation and interpretation
+- Historical analysis of TIPS/Treasury spreads
+- 2008-2009 financial crisis impact on break-even rates
+
+**Section III: Duration and Convexity Hedging (20 points)**
+- TIPS duration and convexity formulas
+- JCH's $200M position risk analysis
+- Hedging with nominal Treasuries
+- Convexity-neutral hedging strategies
+
+**Section IV: Inflation Duration and Swaps (20 points)**
+- Inflation duration derivation
+- Zero-coupon inflation swap valuation
+- Swap sensitivities to nominal and inflation changes
+- Optimal dual hedging (nominal + inflation)
+- Hedge performance backtesting
+
+**Section V: Factor Analysis (20 points)**
+- PCA on break-even inflation rates
+- Multi-factor hedging framework
+- Four-factor hedge implementation
+- Comparison of nominal vs. inflation factor structures
+
+**Section VI: Arbitrage Analysis (15 points)**
+- TIPS vs. inflation swap relative value
+- Arbitrage trade design and implementation
+- Risk assessment (liquidity, basis, counterparty)
+- Strategic recommendations for JCH
 
 ## 🔧 Requirements
 
@@ -192,7 +277,9 @@ This solution was created autonomously with the following methodology:
 ## 🏆 Solution Quality
 
 ### Completeness
-- ✅ All questions answered
+- ✅ All homework questions answered (HW1-HW7)
+- ✅ Complete midterm exam solutions (4 questions, 180 points)
+- ✅ Complete final exam report (6 sections, 100 points)
 - ✅ Both PP (Pencil & Paper) and CP (Computer Program) components
 - ✅ Mathematical derivations with explanations
 - ✅ Code implementations with comments
