@@ -114,3 +114,78 @@ Maturity (n) & Alpha & Beta & t(Beta) & R2 \\ \hline
 
 
 The CP factor shows higher predictive power ($R^2$ around 13-15%) compared to the Fama-Bliss forward spread ($R^2$ around 7-8%).
+
+---
+
+## PSET 4: TIPS, Nelson-Siegel, and Swap Spreads
+
+### Part 1: Term Structure Estimation
+We fitted the Nelson-Siegel model to both TIPS (Real) and Nominal Treasury prices.
+- **Real Yield Curve**: Derived from TIPS.
+- **Nominal Yield Curve**: Derived from Nominal Treasuries.
+- **Break-Even Inflation**: The difference between Nominal and Real yields represents the market's inflation expectation.
+
+### Part 2: Swap Spread Trade
+We analyzed a trade involving:
+1.  Shorting a 5-year Treasury Note (Reverse Repo).
+2.  Entering a 5-year Swap (Receive Fixed, Pay Floating).
+
+**Results:**
+- **Swap Spread (5y):** -1.07% (-107 bps)
+- **Carry (Libor - Repo):** 0.95% (95 bps)
+- **Net Carry:** -202 bps (Negative Carry)
+- **Total P&L (Quarterly):** $10,877,790 (Profit due to spread tightening/movements)
+
+---
+
+## PSET 5: Cap/Floor Pricing and Bootstrapping
+
+### Bootstrapping
+We bootstrapped the Libor/Swap discount curve from market rates (Term SOFR/Swap).
+
+### Pricing Caps and Swaptions
+Using the Black model for caps and swaptions:
+- **1-year Cap Price:** 0.1654 (16.54 bps)
+- **2-year Cap Price:** 0.7659 (76.59 bps)
+- **Swaption (1y into 5y) Price:** 0.0135 (135 bps)
+
+---
+
+## PSET 6: Ho-Lee Tree and Callable Bonds
+
+### Model Calibration
+We calibrated a Ho-Lee interest rate tree to match the Nelson-Siegel fitted yield curve.
+- **Calibrated Sigma:** 0.67% (67 bps)
+
+### Pricing Callable Bond
+We priced a 5-year Callable Bond (Callable after 1 year).
+- **Non-Callable Price:** 101.79
+- **Callable Price:** 99.79
+- **Call Option Value:** 2.01
+
+### Duration and Convexity
+latex
+\begin{document}
+\begin{tabular}{|c|c|c|}
+\hline
+Measure & Non-Callable & Callable \\ \hline
+Duration & 4.04 & 1.72 \\ \hline
+Convexity & 14.02 & -220.15 \\ \hline
+\end{tabular}
+\end{document}
+
+The callable bond exhibits significant negative convexity due to the embedded call option.
+
+---
+
+## PSET 7: BDT Tree and MBS Pricing
+
+### BDT Model
+We constructed a Black-Derman-Toy (BDT) tree calibrated to the Libor yield curve and the term structure of cap volatilities.
+
+### MBS Pricing
+We priced a Pass-Through MBS and a Callable Mortgage (Prepayment Option).
+- **Value of Mortgage (No Prepayment):** 120.09
+- **Value of Callable Mortgage (With Prepayment):** 100.00 (Par)
+
+The prepayment option value keeps the mortgage price capped near par.
