@@ -143,9 +143,6 @@ def __(go, pd, np, zeros, ones, array, mean, var, sqrt, arange, interp1d, diag, 
         pass
     return solve_pset3,
 
-if __name__ == "__main__":
-    app.run()
-
 @app.cell
 def __(np, pd, go, plt, fmin, fsolve, norm, interp1d, PchipInterpolator, sm):
     import pandas as pd
@@ -721,8 +718,8 @@ def __(np, pd, go, plt, fmin, fsolve, norm, interp1d, PchipInterpolator, sm):
             "Total_PnL": Total_Value
         }
 
-    if __name__ == "__main__":
-        solve_pset4()
+    # if __name__ == "__main__":
+    solve_pset4()
 
     return
 
@@ -1147,8 +1144,8 @@ def __(np, pd, go, plt, fmin, fsolve, norm, interp1d, PchipInterpolator, sm):
             "fig1": fig1
         }
 
-    if __name__ == "__main__":
-        solve_pset5()
+    # if __name__ == "__main__":
+    solve_pset5()
 
     return
 
@@ -1647,8 +1644,8 @@ def __(np, pd, go, plt, fmin, fsolve, norm, interp1d, PchipInterpolator, sm):
             "fig2": fig2
         }
 
-    if __name__ == "__main__":
-        solve_pset6()
+    # if __name__ == "__main__":
+    solve_pset6()
 
     return
 
@@ -2070,8 +2067,8 @@ def __(np, pd, go, plt, fmin, fsolve, norm, interp1d, PchipInterpolator, sm):
             "fig3": fig3
         }
 
-    if __name__ == "__main__":
-        solve_pset7()
+    # if __name__ == "__main__":
+    solve_pset7()
 
     return
 
